@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "korpiq learning web 3d",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests installed\" && exit 1",
+    "build": "tsc",
+    "start": "node server.js"
+  },
   "repository": "https://github.com/korpiq/learn-web3d",
   "author": "Kalle Hallivuori <korpiq@iki.fi>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
 }
